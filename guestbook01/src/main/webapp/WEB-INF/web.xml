@@ -10,14 +10,5 @@ xmlns="http://JAVA.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.co
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
-<servlet>
-    <description></description>
-    <display-name>EmaillistController</display-name>
-    <servlet-name>EmaillistController</servlet-name>
-    <servlet-class>com.poscoict.emaillist.controller.EmaillistController</servlet-class>
-  </servlet>
-  <servlet-mapping>
-    <servlet-name>EmaillistController</servlet-name>
-    <url-pattern>/el</url-pattern>
-  </servlet-mapping>
+  
 </web-app>
