@@ -1,6 +1,6 @@
 <%@page import="com.poscoict.emaillist.vo.EmaillistVo"%>
 <%@page import="java.util.List"%>
-<%@ taglib uri ="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%
 	List<EmaillistVo> list = (List<EmaillistVo>)request.getAttribute("list");
 %>

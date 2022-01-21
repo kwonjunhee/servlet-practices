@@ -1,6 +1,6 @@
 <%@page import="com.poscoict.emaillist.vo.EmaillistVo"%>
 <%@page import="com.poscoict.emaillist.dao.EmaillistDao"%>
-<%@ taglib uri ="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%
 	request.setCharacterEncoding("utf-8");
 	String firstName = request.getParameter("fn");
